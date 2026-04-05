@@ -1,7 +1,8 @@
-# 🚀 Automation Framework (UI + API Testing)
+# 🚀 Hybrid Automation Framework (UI + API)
 
-## 📌 Project Overview
-This project is a hybrid automation framework designed to perform both UI and API testing. It demonstrates real-world automation practices using Selenium, Cucumber (BDD), TestNG, and REST Assured.
+## 📌 Overview
+This project demonstrates a scalable automation framework built using Selenium, Cucumber (BDD), TestNG, and REST Assured. It supports both UI and API testing.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -11,26 +12,24 @@ This project is a hybrid automation framework designed to perform both UI and AP
 - TestNG
 - REST Assured
 - Maven
+
 ---
 
-## 📂 Framework Structure
-- pages → Page Object Model classes
-- stepdefinitions → Cucumber step definitions
-- runners → Test execution
-- utils → DriverFactory and reusable code
-- tests → API test cases
-- features → BDD scenarios
----
-## ✅ Features Implemented
-- UI Automation using Selenium
-- BDD using Cucumber
+## 📂 Framework Design
 - Page Object Model (POM)
-- API Testing using REST Assured
-- Test execution using TestNG
-- Reusable framework structure
+- Modular structure for scalability
+- Reusable utilities (DriverFactory)
 
 ---
 
-## ▶️ How to Run Tests
+## ✅ Features
+- UI Automation (Login functionality)
+- API Testing (GET Users)
+- BDD Implementation using Cucumber
+- Test execution with TestNG
+
+---
+
+## ▶️ How to Run
 ```bash
 mvn test
